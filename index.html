@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethel Billigual Nursery and primary complex - Excellence in Primary Education | Nkozoa</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="logo">Bethel Billigual Nursery and primary complex </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Programs</a></li>
+                <li><a href="#registration">Admissions</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" onclick="openModal('loginModal')">Login</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Bethel Billigual Nursery and primary complex</h1>
+            <p>Excellence in Primary Education in NKozoa</p>
+            <p>Following Government Curriculum • Hands-on Projects • Certified Programs • Education for Job Creators </p>
+            <div class="cta-buttons">
+                <a href="#registration" class="cta-btn cta-primary">Apply Online</a>
+                <a href="#about" class="cta-btn cta-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="features" id="stats" style="background: var(--white);">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Bethel Billigual Nursery and primary Accedemy complex by Numbers</h2>
+                <p>Our commitment to excellence reflected in achievements</p>
+            </div>
+            <div class="stats-counter">
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="500">0</span>
+                    <div class="stat-label">Happy Students</div>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="18">0</span>
+                    <div class="stat-label">Qualified Teachers</div>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="7">0</span>
+                    <div class="stat-label">Years of Excellence</div>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="99">0</span>
+                    <div class="stat-label">Success Rate %</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>School Life at Bethel Billigual Nursery and primary Accedemy complex</h2>
+                <p>Take a glimpse into our vibrant learning environment</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal" onclick="openImageModal('classroom')">
+                    <div class="image-placeholder">
+                        <img src="./assets/bethellibiry.jpg" alt="">
+                        <div style="font-size: 3rem;">📚</div>
+                        <div>Modern Classrooms</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Modern Classrooms</h4>
+                        <p>State-of-the-art learning environments</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" onclick="openImageModal('playground')">
+                    <div class="image-placeholder">
+                        <div style="font-size: 3rem;">⚽</div>
+                        <div>Playground</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Recreation Area</h4>
+                        <p>Safe and fun play areas for students</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" onclick="openImageModal('library')">
+                    <div class="image-placeholder">
+                        <div style="font-size: 3rem;">📖</div>
+                        <div>Library</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <img src="./assets/bethellibiry.jpg" alt="">
+                        <h4>School Library</h4>
+                        <p>Extensive collection of educational resources</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" onclick="openImageModal('lab')">
+                    <div class="image-placeholder">
+                        <div style="font-size: 3rem;">🔬</div>
+                        <div>Science Lab</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Science Laboratory</h4>
+                        <p>Hands-on science experiments and discovery</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" onclick="openImageModal('uniform')">
+                    <div class="image-placeholder">
+                        <div style="font-size: 3rem;">👔</div>
+                        <div>School Uniform</div>
+                        <small>Black & Pink</small>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>School Uniform</h4>
+                        <p>Our distinctive black and pink uniforms</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" onclick="openImageModal('activities')">
+                    <div class="image-placeholder">
+                        <div style="font-size: 3rem;"></div>
+                        <div>Activities</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <img src="./assets/20250207_100549.jpg" alt="">
+                        <h4>Extracurricular Activities</h4>
+                        <p>Art, music, sports and more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Why Choose Bethel Billigual Nursery and primary Accedemy complex?</h2>
+                <p>We provide exceptional primary education with modern teaching methods and comprehensive development programs</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">📚</div>
+                    <h3>Government Curriculum</h3>
+                    <p>We follow the official government curriculum ensuring your child meets all educational standards and requirements.
+                    </p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🔬</div>
+                    <h3>Hands-on Projects</h3>
+                    <p>Interactive learning through practical projects that enhance understanding and creativity in every subject.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Certified Programs</h3>
+                    <p>All our programs are certified and recognized, providing quality education with proper documentation.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">👨‍🏫</div>
+                    <h3>Qualified Teachers</h3>
+                    <p>Our experienced and qualified teachers are dedicated to nurturing each student's potential.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🌟</div>
+                    <h3>Excellence Focus</h3>
+                    <p>We maintain high standards in education while ensuring every student reaches their full potential.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Individual Attention</h3>
+                    <p>Small class sizes ensure personalized attention and tailored learning experiences for each student.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <h2>About Bethel Billigual Nursery and primary Accedemy complex</h2>
+                    <p>Located in the heart of Nkozoa, Bethel Billigual Nursery and primary Accedemy complex stands as a beacon of educational excellence in primary education. Our school is built on the foundation of academic rigor, character development, and practical learning.</p>
+                    <p>We pride ourselves on following the government curriculum while incorporating innovative teaching methods that make learning engaging and effective. Our distinctive black and pink school uniforms represent our commitment to discipline and creativity.</p>
+                    <p>At Academic Complex, we believe in nurturing not just academic excellence but also the overall development of each child through hands-on projects, certified programs, and a supportive learning environment.</p>
+                </div>
+                <div class="about-image reveal">
+                    <div class="image-placeholder">
+                        <div><img src="./assets/20250207_100549.jpg" alt=""></div>
+                        <div>Academic Complex Building</div>
+                        <small>(School building exterior)</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>What Our Community Says</h2>
+                <p>Hear from parents, teachers, and students about their experience at Bethel Bilingual Academy</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👨‍👩‍👧</div>
+                        <div class="testimonial-info">
+                            <h4>Mr. & Mrs. Ndongo</h4>
+                            <span>Parents of Grade 3 Student</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Bethel Bilingual Academy has transformed our daughter's education. The teachers are incredibly dedicated, and we've seen remarkable improvement in her confidence and academic performance. The hands-on projects make learning fun and engaging!"</p>
+                    </div>
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👩‍🏫</div>
+                        <div class="testimonial-info">
+                            <h4>Mrs. Yondo</h4>
+                            <span>Primary 4 Teacher</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Teaching at Bethel has been a rewarding experience. The school's commitment to excellence and the supportive environment allows us to bring out the best in every student. Seeing children grow academically and personally is truly fulfilling."</p>
+                    </div>
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👦</div>
+                        <div class="testimonial-info">
+                            <h4>Brian M.</h4>
+                            <span>Primary 5 Student</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"I love my school! My teachers make learning so much fun with experiments and projects. My favorite is science class where we get to do cool experiments. I've made so many friends and I'm learning new things every day!"</p>
+                    </div>
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Headmaster's Message Section -->
+    <section class="headmaster-message" id="headmaster-message">
+        <div class="container">
+            <div class="headmaster-content">
+                <div class="headmaster-image reveal">
+                    <div class="image-placeholder">
+                        <div><img src="" alt="" style="border-radius: 100px;"></div>
+                        <div>Headmaster</div>
+                    </div>
+                </div>
+                <div class="headmaster-text reveal">
+                    <h2>Message from the Headmaster</h2>
+                    <h3>Mr.Seraphine Ngabuin Vuzato</h3>
+                    <p>"Welcome to Bethel Bilingual Nursery and Primary Academy Complex, where we believe that every child is a unique gift with unlimited potential. Our mission is to provide a nurturing environment that fosters academic excellence, moral values, and creative thinking.</p>
+                    <p>We are committed to following the government curriculum while incorporating innovative teaching methods that prepare our students for the challenges of tomorrow. Our dedicated team of qualified teachers works tirelessly to ensure that each child receives personalized attention and support.</p>
+                    <p>At Bethel, we don't just educate; we inspire, we nurture, and we build the foundation for lifelong success. We invite you to join our family and experience the difference that quality education can make in your child's life."</p>
+                    <div class="signature">
+                        <strong>Mr.Seraphine Ngabuin Vuzato</strong><br>
+                        <em>Headmaster, Bethel Bilingual Academy</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcements & Urgent Information Section -->
+    <section class="announcements" id="announcements">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Announcements & Important Information</h2>
+                <p>Stay updated with the latest news and urgent announcements from Bethel Bilingual Academy</p>
+            </div>
+            <div class="announcements-container">
+                <div class="urgent-notice reveal">
+                    <div class="urgent-badge">🚨 URGENT</div>
+                    <h3>School Resumption Notice</h3>
+                    <p>School will resume for the 2025/2026 academic year on <strong>September 9th, 2025</strong>. All students should report by 7:30 AM with complete school materials and uniforms.</p>
+                    <span class="notice-date">Posted: August 25, 2025</span>
+                </div>
+                
+                <div class="announcements-grid">
+                    <div class="announcement-card reveal">
+                        <div class="announcement-date">
+                            <span class="day">15</span>
+                            <span class="month">AUG</span>
+                        </div>
+                        <div class="announcement-content">
+                            <h4>Parent-Teacher Meeting</h4>
+                            <p>First quarter parent-teacher meeting scheduled for August 15th, 2025 at 2:00 PM in the school auditorium.</p>
+                        </div>
+                    </div>
+
+                    <div class="announcement-card reveal">
+                        <div class="announcement-date">
+                            <span class="day">20</span>
+                            <span class="month">AUG</span>
+                        </div>
+                        <div class="announcement-content">
+                            <h4>School Fees Deadline</h4>
+                            <p>Reminder: First term school fees payment deadline is August 20th, 2025. Please contact the accounts office for any inquiries.</p>
+                        </div>
+                    </div>
+
+                    <div class="announcement-card reveal">
+                        <div class="announcement-date">
+                            <span class="day">25</span>
+                            <span class="month">AUG</span>
+                        </div>
+                        <div class="announcement-content">
+                            <h4>New Student Orientation</h4>
+                            <p>Orientation program for new students and parents on August 25th, 2025 at 9:00 AM. All new families are encouraged to attend.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subscribe-notifications reveal">
+                    <h3>Get Instant Notifications</h3>
+                    <p>Subscribe to receive urgent announcements and important updates directly to your phone or email.</p>
+                    <form class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit" class="cta-btn cta-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="registration" id="registration">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Join Academic Complex</h2>
+                <p>Start your child's educational journey with us through our convenient online registration system</p>
+            </div>
+            <div class="form-container reveal">
+                <div class="form-tabs">
+                    <button class="tab-btn active" onclick="switchTab('student-registration')">Student Registration</button>
+                    <button class="tab-btn" onclick="switchTab('parent-account')">Parent Account</button>
+                </div>
+
+                <!-- Student Registration Form -->
+                <div class="tab-content active" id="student-registration">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--primary-black);">Student Registration</h3>
+                    <form id="studentForm">
+                        <div class="form-group">
+                            <label for="studentFirstName">Student First Name *</label>
+                            <input type="text" id="studentFirstName" name="studentFirstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="studentLastName">Student Last Name *</label>
+                            <input type="text" id="studentLastName" name="studentLastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="studentFullName">Student Full Name *</label>
+                            <input type="text" id="studentLastName" name="studentLastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dateOfBirth">Date of Birth *</label>
+                            <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="grade">Grade Level *</label>
+                            <select id="grade" name="grade" required>
+                                <option value="">Select Grade</option>
+                                <option value="nursery">Nursery</option>
+                                <option value="primary1">Primary 1</option>
+                                <option value="primary2">Primary 2</option>
+                                <option value="primary3">Primary 3</option>
+                                <option value="primary4">Primary 4</option>
+                                <option value="primary5">Primary 5</option>
+                                <option value="primary6">Primary 6</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="parentName">Parent/Guardian Name *</label>
+                            <input type="text" id="parentName" name="parentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parentPhone">Parent Phone Number *</label>
+                            <input type="tel" id="parentPhone" name="parentPhone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parentEmail">Parent Email *</label>
+                            <input type="email" id="parentEmail" name="parentEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Home Address *</label>
+                            <textarea id="address" name="address" rows="3" required></textarea>
+                        </div>
+                        
+                        <!-- Document Upload Section -->
+                        <div class="form-group">
+                            <label>Required Documents Upload</label>
+                            <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 1rem;">
+                                Please upload the following documents (PDF, JPG, PNG - Max 5MB each):
+                            </p>
+                            
+                            <div class="document-upload" onclick="document.getElementById('birthCert').click()">
+                                <div class="upload-icon">📄</div>
+                                <p><strong>Birth Certificate</strong> (Required)</p>
+                                <p style="font-size: 0.9rem; color: var(--text-gray);">Click to upload or drag and drop</p>
+                                <input type="file" id="birthCert" name="birthCert" accept=".pdf,.jpg,.jpeg,.png" onchange="handleFileUpload(this, 'birthCertFiles')">
+                            </div>
+                            <div class="uploaded-files" id="birthCertFiles"></div>
+                            
+                            <div class="document-upload" onclick="document.getElementById('prevSchool').click()">
+                                <div class="upload-icon">📜</div>
+                                <p><strong>Previous School Records</strong> (If applicable)</p>
+                                <p style="font-size: 0.9rem; color: var(--text-gray);">Click to upload or drag and drop</p>
+                                <input type="file" id="prevSchool" name="prevSchool" accept=".pdf,.jpg,.jpeg,.png" onchange="handleFileUpload(this, 'prevSchoolFiles')">
+                            </div>
+                            <div class="uploaded-files" id="prevSchoolFiles"></div>
+                            
+                            <div class="document-upload" onclick="document.getElementById('parentId').click()">
+                                <div class="upload-icon">🆔</div>
+                                <p><strong>Parent/Guardian ID</strong> (Required)</p>
+                                <p style="font-size: 0.9rem; color: var(--text-gray);">Click to upload or drag and drop</p>
+                                <input type="file" id="parentId" name="parentId" accept=".pdf,.jpg,.jpeg,.png" onchange="handleFileUpload(this, 'parentIdFiles')">
+                            </div>
+                            <div class="uploaded-files" id="parentIdFiles"></div>
+                            
+                            <div class="document-upload" onclick="document.getElementById('passportPhoto').click()">
+                                <div class="upload-icon">📸</div>
+                                <p><strong>Student Passport Photo</strong> (Required)</p>
+                                <p style="font-size: 0.9rem; color: var(--text-gray);">Click to upload or drag and drop</p>
+                                <input type="file" id="passportPhoto" name="passportPhoto" accept=".jpg,.jpeg,.png" onchange="handleFileUpload(this, 'passportPhotoFiles')">
+                            </div>
+                            <div class="uploaded-files" id="passportPhotoFiles"></div>
+                            
+                            <div class="document-upload" onclick="document.getElementById('medicalReport').click()">
+                                <div class="upload-icon">🏥</div>
+                                <p><strong>Medical/Health Report</strong> (Recommended)</p>
+                                <p style="font-size: 0.9rem; color: var(--text-gray);">Click to upload or drag and drop</p>
+                                <input type="file" id="medicalReport" name="medicalReport" accept=".pdf,.jpg,.jpeg,.png" onchange="handleFileUpload(this, 'medicalReportFiles')">
+                            </div>
+                            <div class="uploaded-files" id="medicalReportFiles"></div>
+                        </div>
+                        
+                        <div class="progress-container" id="uploadProgress">
+                            <div class="progress-bar" id="progressBar"></div>
+                        </div>
+                        <div class="loading" id="studentLoading"></div>
+                        <div class="success-message" id="studentSuccess">Registration submitted successfully! We will contact you soon.</div>
+                        <button type="submit" class="cta-btn cta-primary" style="width: 100%;">Submit Registration</button>
+                    </form>
+                </div>
+
+                <!-- Parent Account Form -->
+                <div class="tab-content" id="parent-account">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--primary-black);">Create Parent Account</h3>
+                    <form id="parentForm">
+                        <div class="form-group">
+                            <label for="parentFirstName">First Name *</label>
+                            <input type="text" id="parentFirstName" name="parentFirstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parentLastName">Last Name *</label>
+                            <input type="text" id="parentLastName" name="parentLastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="accountEmail">Email Address *</label>
+                            <input type="email" id="accountEmail" name="accountEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="accountPhone">Phone Number *</label>
+                            <input type="tel" id="accountPhone" name="accountPhone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password *</label>
+                            <input type="password" id="password" name="password" required minlength="8">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password *</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        </div>
+                        <div class="loading" id="parentLoading"></div>
+                        <div class="success-message" id="parentSuccess">Account created successfully! You can now login.</div>
+                        <button type="submit" class="cta-btn cta-primary" style="width: 100%;">Create Account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2 style="color: var(--white);">Contact Us</h2>
+                <p style="color: var(--light-gray);">Get in touch with Academic Complex for inquiries, visits, or more information</p>
+            </div>
+            <div class="contact-content">
+                                    <div class="contact-info reveal">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i>📍</i>
+                        <div>
+                            <strong>Address:</strong><br>
+                            Academic Complex<br>
+                            Yawundiankozoa, Cameroon
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i>📞</i>
+                        <div>
+                            <strong>Phone:</strong><br>
+                            +237 6 80 54 86 73
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i>📧</i>
+                        <div>
+                            <strong>Email:</strong><br>
+                            info@academiccomplex.cm
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i>🕒</i>
+                        <div>
+                            <strong>School Hours:</strong><br>
+                            Monday - Friday: 7:30 AM - 3:30 PM
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form reveal">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">Your Name *</label>
+                            <input type="text" id="contactName" name="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Your Email *</label>
+                            <input type="email" id="contactEmail" name="contactEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Subject *</label>
+                            <select id="contactSubject" name="contactSubject" required>
+                                <option value="">Select Subject</option>
+                                <option value="admission">Admission Inquiry</option>
+                                <option value="curriculum">Curriculum Information</option>
+                                <option value="fees">School Fees</option>
+                                <option value="visit">School Visit</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Message *</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+                        </div>
+                        <div class="loading" id="contactLoading"></div>
+                        <div class="success-message" id="contactSuccess">Message sent successfully! We'll get back to you soon.</div>
+                        <button type="submit" class="cta-btn cta-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Academic Complex</h4>
+                    <p>Excellence in Primary Education</p>
+                    <p>Nkozoa, Cameroon</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <p><a href="#about" style="color: var(--white); text-decoration: none;">About Us</a></p>
+                    <p><a href="#features" style="color: var(--white); text-decoration: none;">Programs</a></p>
+                    <p><a href="#registration" style="color: var(--white); text-decoration: none;">Admissions</a></p>
+                    <p><a href="#contact" style="color: var(--white); text-decoration: none;">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>School Info</h4>
+                    <p>Government Curriculum</p>
+                    <p>Certified Programs</p>
+                    <p>Hands-on Learning</p>
+                    <p>Qualified Teachers</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <p>📧jonesyondo8@gmail.cm</p>
+                    <p>📞 +237 680 54 86 73</p>
+                    <p>🎓 School Uniform: Black & Pink</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bethel Billigual Nursery and primary Accedemy complex. All rights reserved. | Excellence in Primary Education</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content" style="max-width: 800px;">
+            <span class="close" onclick="closeModal('imageModal')">&times;</span>
+            <div id="imageModalContent">
+                <img src="./assets/bethellibiry.jpg" alt="">
+                <img src="./assets/bethellibiry.jpg" alt="">
+                <img src="./assets/bethellibiry.jpg" alt="">
+                <img src="./assets/bethellibiry.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <button class="chat-button" onclick="toggleChat()" id="chatButton">💬</button>
+        <div class="chat-popup" id="chatPopup">
+            <div class="chat-header">
+                <div>Academic Complex Support</div>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div style="padding: 1rem; text-align: center; color: var(--text-gray);">
+                    Welcome! How can we help you today?
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Type your message..." onkeypress="handleChatEnter(event)">
+                <button class="chat-send" onclick="sendChatMessage()">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notification" class="notification"></div>
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            <h2 style="margin-bottom: 1.5rem; color: var(--primary-black);">Parent Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email Address</label>
+                    <input type="email" id="loginEmail" name="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+                </div>
+                <div class="loading" id="loginLoading"></div>
+                <div class="success-message" id="loginSuccess">Login successful! Welcome back.</div>
+                <button type="submit" class="cta-btn cta-primary" style="width: 100%; margin-bottom: 1rem;">Login</button>
+                <p style="text-align: center; color: var(--text-gray);">
+                    Don't have an account? <a href="#registration" onclick="closeModal('loginModal'); switchTab('parent-account')" style="color: var(--primary-pink);">Create one here</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
